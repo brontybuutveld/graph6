@@ -1,0 +1,30 @@
+{
+  "name": "graph6",
+  "version": "1.0.0",
+  "description": "Graph6 is a class with two static methods: one to convert a matrix into a text string in the .g6 format specification, and another to perform the inverse process.",
+  "keywords": [
+    "graph6",
+    "graph",
+    "converter"
+  ],
+  "homepage": "https://github.com/renancarvalhops/graph6#readme",
+  "bugs": {
+    "url": "https://github.com/renancarvalhops/graph6/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renancarvalhops/graph6.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Renan Carvalho <renancps77@gmail.com>",
+  "type": "module",
+  "main": "dist/Graph6.js",
+  "types": "dist/Graph6.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/Graph6.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

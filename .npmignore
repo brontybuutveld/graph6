@@ -1,4 +1,4 @@
 src/
-*.ts
 node_modules/
 .vscode/
+tsconfig.json
